@@ -65,7 +65,7 @@ class _RestaurantsViewState extends State<RestaurantsView> {
                     child: Container(
                       margin: const EdgeInsets.only(top: 10),
                       decoration: BoxDecoration(
-                        color: Colors.grey.shade300,
+                        color: AppColors.whiteColors,
                         borderRadius: BorderRadius.circular(12),
                       ),
                       padding: const EdgeInsets.all(15),

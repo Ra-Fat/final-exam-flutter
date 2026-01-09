@@ -27,13 +27,13 @@ class RestaurantCommentsView extends StatelessWidget {
             Expanded( 
               child: Text(
                 comment,
-                style: TextStyle(fontSize: AppTexts.small, color: Colors.white),
+                style: TextStyle(fontSize: AppTexts.small, color: AppColors.whiteColors),
               ),
             ),
             const SizedBox(width: 12),
             Text(
               rating.toString(),
-              style: TextStyle(fontSize: AppTexts.small, color: Colors.white),
+              style: TextStyle(fontSize: AppTexts.small, color: AppColors.whiteColors),
             ),
           ],
         ),

@@ -10,4 +10,6 @@ class AppTexts {
 class AppColors {
 
   static Color main = const Color.fromARGB(255, 65, 205, 240);
+  static Color whiteColors = const Color.fromARGB(255, 255, 255, 255);
+  static Color starColors = const Color.fromARGB(255, 207, 222, 3);
 }

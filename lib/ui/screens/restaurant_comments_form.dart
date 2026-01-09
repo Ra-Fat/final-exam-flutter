@@ -17,7 +17,7 @@ Widget bottomshet(BuildContext context) {
               width: 40,
               height: 4,
               decoration: BoxDecoration(
-                color: Colors.grey.shade400,
+                color: AppColors.whiteColors,
                 borderRadius: BorderRadius.circular(10),
               ),
             ),

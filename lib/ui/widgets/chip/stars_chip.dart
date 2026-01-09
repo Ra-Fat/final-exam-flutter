@@ -10,7 +10,7 @@ class StarsChip extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: AppColors.whiteColors,
         border: Border.all(width: 1),
         borderRadius: BorderRadius.circular(10),
       ),

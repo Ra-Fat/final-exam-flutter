@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../theme.dart';
 import '../../../models/restaurant_type.dart';
 
 class RestaurantTypeChip extends StatelessWidget {
@@ -16,7 +17,7 @@ class RestaurantTypeChip extends StatelessWidget {
       ),
       child: Text(
         type.name,
-        style: TextStyle(color: Colors.white),
+        style: TextStyle(color: AppColors.whiteColors),
       ),
     );
   }
